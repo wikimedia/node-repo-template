@@ -1,2 +1,2 @@
-# jsonschema-compatibility
+# jsonschema-compatibility [![npm version](https://badge.fury.io/js/jsonschema-compatibility.svg)](https://badge.fury.io/js/jsonschema-compatibility) [![Build Status](https://travis-ci.org/wikimedia/jsonschema-compatibility.svg?branch=master)](https://travis-ci.org/wikimedia/jsonschema-compatibility) [![Coverage Status](https://coveralls.io/repos/github/wikimedia/jsonschema-compatibility/badge.svg?branch=master)](https://coveralls.io/github/wikimedia/jsonschema-compatibility?branch=master) [![Dependencies](https://david-dm.org/wikimedia/jsonschema-compatibility.svg?branch=master)](https://david-dm.org/wikimedia/jsonschema-compatibility?branch=master)
 Backwards compatibility checker for JSONSchema
