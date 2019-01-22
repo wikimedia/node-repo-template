@@ -1,0 +1,38 @@
+{
+  "name": "jsonschema-compatibility",
+  "version": "0.0.1",
+  "description": "Backward compatibility checker for JSON Schema",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "npm run lint && mocha",
+    "lint": "eslint --max-warnings 0 --ext .js --ext .json .",
+    "coverage": "istanbul cover _mocha -- -R spec",
+    "coveralls": "cat ./coverage/lcov.info | coveralls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wikimedia/jsonschema-compatibility.git"
+  },
+  "keywords": [
+    "json",
+    "jsonschema"
+  ],
+  "author": "Petr Pchelko <ppchelko@wikimedia.org>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/wikimedia/jsonschema-compatibility/issues"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "homepage": "https://github.com/wikimedia/jsonschema-compatibility#readme",
+  "devDependencies": {
+    "eslint-config-wikimedia": "^0.10.0",
+    "eslint-plugin-jsdoc": "^4.0.1",
+    "eslint-plugin-json": "^1.3.2",
+    "extend": "^3.0.2",
+    "istanbul": "^0.4.5",
+    "mocha": "^5.2.0",
+    "mocha-lcov-reporter": "^1.3.0"
+  }
+}
